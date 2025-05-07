@@ -19,6 +19,7 @@ allprojects {
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
     kotlinOptions {
+        // fuerza el target Java/Kotlin a 17
         jvmTarget = "17"
     }
 }

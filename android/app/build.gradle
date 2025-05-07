@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.swipe_gallery'
+    namespace 'com.example.swipe_gallery'    // ajústalo si tu paquete es distinto
     compileSdk 34
 
     defaultConfig {
@@ -31,5 +31,11 @@ android {
         jvmTarget = "17"
     }
 
-    ndkVersion "27.0.12077973"
+    ndkVersion "27.0.12077973"  // requerido por photo_manager
+}
+
+dependencies {
+    implementation "androidx.core:core-ktx:1.10.1"
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "com.google.android.material:material:1.9.0"
 }

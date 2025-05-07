@@ -1,0 +1,3 @@
+rootProject.name = "swipe_gallery"
+include(":app")
+ 
