@@ -1,0 +1,40 @@
+# TODO: Nombre interno del proyecto Flutter
+name: swipe_gallery
+
+# TODO: Descripción corta del propósito de la app
+description: "A gallery cleaner using Swipe like Tinder"
+
+# TODO: Esto evita que se publique por accidente en pub.dev
+publish_to: 'none'
+
+# TODO: Versión de la app (mayor.menor.parche+número_de_compilación)
+version: 1.0.0+1
+
+# TODO: Define la versión mínima del SDK de Dart necesario
+environment:
+  sdk: ^3.7.2
+
+# TODO: Paquetes que la app necesita para funcionar
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # TODO: Iconos estilo iOS (por si quieres usarlos)
+  cupertino_icons: ^1.0.8
+
+  # TODO: Plugin para acceder a la galería del dispositivo y solicitar permisos
+  photo_manager: ^3.0.0
+
+# TODO: Dependencias usadas solo durante desarrollo o pruebas
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # TODO: Conjunto de reglas recomendadas para mantener buen estilo de código
+  flutter_lints: ^5.0.0
+
+# TODO: Configuración específica para Flutter
+flutter:
+
+  # TODO: Incluir la fuente por defecto de Material Icons (necesaria para usar Icon(Icons.xxx))
+  uses-material-design: true
